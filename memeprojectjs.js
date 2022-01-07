@@ -5,7 +5,7 @@ const bottomTextInput = document.querySelector('input[name="bottomTextInput"]');
 const result1 = document.querySelector('#result1');
 const result2 = document.querySelector('#result2');
 const result3 = document.querySelector('#result3');
-
+// inputs
 form.addEventListener('submit', function (e) {
     e.preventDefault();
     const newLogo1 = topTextInput.value
